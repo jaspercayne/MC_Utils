@@ -1,5 +1,5 @@
 # MC_Utils
-Various tools I use to help with Minecraft server administration
+Various tools I use to help with Minecraft server administration. Pull requests with additional tools or optimizations (I don't know the first thing about Python, this is my first real go at it) are absolutely welome. Let's make a solid toolkit for server admins everywhere!
 
 ## Requirements:
 Python 3.x
@@ -10,7 +10,7 @@ By using NEI to dump csv files and then copying those files to the same director
 python csvProcessor.py <MODNAME TO SEARCH>
 ```
 
-Example usage:
+### Example usage:
 ```python csvProcessor.py enviromine```
 will output
 ```
